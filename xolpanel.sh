@@ -45,4 +45,4 @@ systemctl enable xolpanel
 
 clear
 
-echo " Installations complete, type /menu on your bot
+echo " Installations complete, type /menu on your bot"
