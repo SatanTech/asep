@@ -3,8 +3,8 @@
 #install
 apt update && apt upgrade
 apt install python3 python3-pip git
-git clone https://github.com/SatanTech/janda.git
-unzip janda/xolpanel.zip
+git clone https://github.com/givpn/xolpanel.git
+unzip xolpanel/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
 pip3 install pillow
 
