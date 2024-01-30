@@ -1,5 +1,7 @@
 #!/bin/bash
 
+domain=$(cat /etc/xray/domain)
+
 #install
 apt update && apt upgrade
 apt install python3 python3-pip git
@@ -12,7 +14,7 @@ pip3 install pillow
 echo ""
 read -e -p "[*] Input your Bot Token : " bottoken
 read -e -p "[*] Input Your Id Telegram :" admin
-read -e -p "[*] Input Your Domain :" domain
+
 echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
 echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
