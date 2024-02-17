@@ -4,9 +4,9 @@
 rm -rf xolpanel.sh
 apt update && apt upgrade
 apt install python3 python3-pip git
-git clone https://github.com/SatanTech/xolpanel.git
-unzip xolpanel/xolpanel.zip
-pip3 install -r xolpanel/requirements.txt
+git clone https://github.com/SatanTech/janda.git
+unzip janda/xolpanel.zip
+pip3 install -r janda/requirements.txt
 pip3 install pillow
 
 domain=$(cat /etc/xray/domain)
