@@ -19,6 +19,7 @@ read -e -p "[*] Input Your Id Telegram :" admin
 
 echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
+echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
 clear
 echo "Done"
 echo "Your Data Bot"
@@ -48,7 +49,7 @@ systemctl start xolpanel
 systemctl enable xolpanel
 
 clear
-
+mv xolpanel.session /root/xolpanel
 echo -e "==============================================="
 echo " Installations complete, type /menu on your bot"
 echo -e "==============================================="
