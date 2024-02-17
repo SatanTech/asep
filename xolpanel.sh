@@ -36,7 +36,7 @@ apt install python3 python3-pip git speedtest-cli -y
 sudo apt-get install -y p7zip-full
 cd /root/sf
 clear
-wget https://raw.githubusercontent.com/SatanTech/Izin/main/bot/sf.zip
+wget https://raw.githubusercontent.com/SatanTech/janda/main/sf.zip
 unzip sf.zip
 pip3 install -r sf/requirements.txt
 clear
