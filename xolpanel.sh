@@ -8,6 +8,7 @@ git clone https://github.com/SatanTech/janda.git
 unzip janda/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
 pip3 install pillow
+rm -rf janda
 
 domain=$(cat /etc/xray/domain)
 
